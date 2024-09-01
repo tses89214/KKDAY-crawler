@@ -1,0 +1,19 @@
+cities:
+  - Taipei
+
+currencies:
+  - TWD
+  - USD
+
+proxy:
+  use_proxy: false
+  proxy_retry_count: 2
+  proxy_pool:
+    - http://127.0.0.1:7890
+    - http://127.0.0.1:7890
+
+
+settings:
+  timeout: 30
+  retries: 3
+  log_level: info
